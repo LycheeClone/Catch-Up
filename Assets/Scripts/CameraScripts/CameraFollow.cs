@@ -10,18 +10,18 @@ namespace CameraScripts
         [SerializeField] private Transform camera1;
         [SerializeField] private float cameraFollowSpeed = 5f;
         private Vector3 _distanceByPlayer;
-
+    
         void Start()
         {
             //_distanceByPlayer = camera1.position - player.position;
             _distanceByPlayer = CalculateDistance(player);
         }
-
+    
         private void FixedUpdate()
         {
             MoveTheCamera();
         }
-
+    
         private void MoveTheCamera()
         {
             if (player != null)
@@ -32,11 +32,12 @@ namespace CameraScripts
                 camera1.LookAt(position);
             }
         }
-
+    
         private Vector3 CalculateDistance(Transform newTarget)
         {
             return transform.position - newTarget.position;
         }
-
+    
     }
-}
+} 
+
