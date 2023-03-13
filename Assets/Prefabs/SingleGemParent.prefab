@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4619152388781567557}
   - component: {fileID: 8927088565000955809}
   - component: {fileID: -8948376836621338586}
+  - component: {fileID: -5388336058085305581}
   m_Layer: 0
   m_Name: SingleGemParent
-  m_TagString: Untagged
+  m_TagString: Gem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +47,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4619152388781567556}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.2211607, y: 1.6392498, z: 2.2123566}
@@ -64,6 +65,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: -1
+--- !u!114 &-5388336058085305581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4619152388781567556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb5a87fde75fbc47a62bacc93f314f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4619152387761435511
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - LookRight
-  - LookLeft
+  - Obstacle
+  - Gem
+  - Undefined
+  - ScoreChanger
   layers:
   - Default
   - TransparentFX
