@@ -14,7 +14,7 @@ namespace GemControls
 
         private void Rotater()
         {
-            transform.Rotate(new Vector3(0f,rotateSpeed,0f),Space.World);
+            transform.Rotate(new Vector3(0f,rotateSpeed,0f),Space.Self);
             
 
         }
