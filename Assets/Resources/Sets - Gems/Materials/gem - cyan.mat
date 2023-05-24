@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Emission: 1.9
+    - _Emission: 2
     - _Emissive: 0
     - _EnvironmentLight: 0
     - _IndexOfRefraction: 2.14
